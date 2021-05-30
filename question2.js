@@ -5,6 +5,6 @@ const prompt = require('prompt-sync')();
 const x = prompt('Please input a Number? ');
 const y = prompt('Please input Power of this Number? ');
 
-var z = Math.pow(x,y);
+const z = Math.pow(x,y);
 
-console.log("The Value of " + x + " to the " + y + "th Power is= " + z)
+console.log("The Value of " + x + " to the " + y + "th Power is= " + z);
